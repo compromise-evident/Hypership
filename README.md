@@ -39,7 +39,7 @@ For further clarity, think of Hypership as Authorship with the following 3 major
 # Your fluid number retained by the verifying party:
 
 ```text
-|L'9ykPe}&V;/ADbzC3dk^,w/It,XUFUJm\[P_ME|hqqh(;N,j4vVw:-kq(Lplz!^SGe\aD0:RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRMMMMMM
+wL'9ykP<}&V;/A@b-C_%k^,w/~t.X^F`J&\["_M?|+q*h(;N,j=vVw:-kq(L#lz!^S!e\a$0:RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRMMMMMM
 ```
 
 ## Published per event. Once verified, this needs not exist anywhere ------>

@@ -828,11 +828,11 @@ int main()
 				{	keys[a] = 0;
 					keys_temp[a] = '\0';
 					keys[a] = 255;
-					keys_temp[a] = 255;
+					keys_temp[a] = -1;
 				}
 			}
 			
-			//Grabs 1 line from file Publishing (based on event_cycle.) After the if() above is evaluated, Hypership.public is created anyway.
+			//Grabs 1 line from file Publishing (based on event_cycle.) After the if()  above is evaluated, Hypership.public is created anyway.
 			char Publishing_line[1173];
 			char file_byte_absorber;
 			in_stream.open("./Hypership.private/Publishing"); //Grabs line.

@@ -11,7 +11,7 @@ disposable public files for user authentication.
   <img src="https://github.com/compromise-evident/Hypership/blob/main/Other/Terminal.png">
 </p>
 
-[No reversal shortcuts means no inherent solutions.](https://github.com/compromise-evident/Hypership/blob/main/Other/Perfect%20secrecy%20and%20P!%3DNP%20proof.pdf) | [Auditing in the browser?](https://coliru.stacked-crooked.com/a/9b3a152016530a43)
+[No reversal shortcuts means no inherent solutions.](https://github.com/compromise-evident/Hypership/blob/main/Other/Perfect%20secrecy%20and%20P!%3DNP%20proof.pdf) | [Auditing in the browser?](https://coliru.stacked-crooked.com/a/095466ff5fac5063)
 
 # How it works; infinitely splicing finitude
 

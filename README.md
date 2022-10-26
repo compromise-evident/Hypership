@@ -15,4 +15,4 @@ disposable public files for user authentication.
 
 # How it works; infinitely splicing finitude
 
-hold up, looking at keys_temp[1008000]
+Number files are 150 Bytes (72-character numbers shared as 150-Byte strings, those extra characters are space where a new number is constructed over time--one bit per event. Study Authorship thoroughly before studying the following. 

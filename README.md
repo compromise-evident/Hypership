@@ -19,7 +19,7 @@ Number files are 150 Bytes (72-character numbers shared as 150-Byte strings, tho
 
 After 504 events, 504 bits represent the full new 72-character number; 1 key per event reveals the next bit through the automatic message. Hypership is without user messages but you can give yes-or-no permission for authentication, handover, and withdrawal, without authenticating data, transaction quantity, its itinerary, or handover destination numbers. <br/>
 
-However, modifying parties can provide Authorship or AuthorshipFemto numbes in case verifying parties occasionally require data authentication. This way, all (16) Authorship alilities and features always apply; verifying parties retain multiple numbers of yours--each capable of different things. And as Authorship variants with user messages keep getting smaller, you can pair Hypership with any and all numbers.
+However, modifying parties can provide Authorship or AuthorshipFemto numbers in case verifying parties occasionally require data authentication. This way, all (16) Authorship abilities and features always apply; verifying parties retain multiple numbers of yours--each capable of different things. And as Authorship variants with user messages keep getting smaller, you can pair Hypership with any and all numbers.
 
 <p align="center">
   <img src="https://github.com/compromise-evident/Hypership/blob/main/Other/Main%20documentation%20image.png">

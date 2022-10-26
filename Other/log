@@ -1,0 +1,19 @@
+/*	Hypership log
+
+
+
+Version 1.0.0   It has been possible since discovering Authorship but only later
+                became apparent that using  Authorship  to splice  pre-generated
+                nested chains is a good idea, at some cost, such as reduced data
+                authentication.  Hypership  can easily be built to include extra
+                message functions in the list but it's better leaving it minimal
+                so if anyone creates  (as I will be, over time)  new  Authorship
+                systems variable in user message size, those systems can work in
+                unison; verifying parties retain 2 different numbers for 1 user.
+                Numbers here are still as they are in Authorship in a sense that
+                verifying parties must always have  1  number from the modifying
+                party; for each event,  the verifying party is left with one new
+                number--this truth you can't escape for the authentication style
+                of Authorship. If you think Hypership is too tiny to accommodate
+                a new number every time, study the documentation very carefully.
+                Wednesday, October 26 2022    */

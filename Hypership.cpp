@@ -1113,7 +1113,7 @@ int main()
 		in_stream.open("Hypership.public"); if(in_stream.fail() == true) {cout << "\nFiles missing.\n"; in_stream.close(); return 0;} in_stream.close();
 		in_stream.open("Hypership.number"); if(in_stream.fail() == true) {cout << "\nFiles missing.\n"; in_stream.close(); return 0;} in_stream.close();
 		
-		//Getting event cycle value from file Number_backup.
+		//Gets event cycle value from file Hypership.number.
 		int event_cycle; //0 to 504 (never reaches 504, resets to 0 in number files.)
 		char number[150];
 		in_stream.open("Hypership.number");
@@ -1137,7 +1137,7 @@ int main()
 		
 		event_cycle = (M_counter + R_counter);
 		
-		//Verifies automatically and redundantly (option 3 built-in. Uses and modifies file Number_backup, file Hypership.number is left for option 3.)
+		//Verifies.
 		char Publishing_line[1173];
 		char file_byte_absorber;
 		in_stream.open("Hypership.public");
@@ -1192,9 +1192,9 @@ int main()
 		{	if(hash[a] == 0) {hash[a] = 16;}
 		}
 		
-		//..........Compares hash to Number_backup's first 72 char (Number_backup was loaded at the beginning to get event_cycle.)
+		//..........Compares hash to file Hypership.number's first 72 char.
 		for(int a = 0; a < 72; a++)
-		{	if(hash[a] != (number[a] - 32)) {cout << "\n\n\nFailed! (Hypership double-checks if each event will be verifiable by others. (1)\n"; return 0;}
+		{	if(hash[a] != (number[a] - 32)) {cout << "\n\n\nFailed! (1)\n"; return 0;}
 		}
 		
 		/// This is a modified block from Authorship.cpp option 3 (verify.)
@@ -1274,7 +1274,7 @@ int main()
 				
 				//Checks if extracted plaintext is one digit. Never exceeds 99,999 upon later reconstruction from 5 elements.
 				if(functions[a] > 9)
-				{	cout << "\n\n\nFailed! (Hypership double-checks if each event will be verifiable by others. (2)\n";
+				{	cout << "\n\n\nFailed! (2)\n";
 					return 0;
 				}
 			}
@@ -1283,7 +1283,7 @@ int main()
 				
 				//Checks if extracted plaintext is one digit. Never exceeds 99,999 upon later reconstruction from 5 elements.
 				if(functions[a] > 9)
-				{	cout << "\n\n\nFailed! (Hypership double-checks if each event will be verifiable by others. (3)\n";
+				{	cout << "\n\n\nFailed! (3)\n";
 					return 0;
 				}
 			}
@@ -1310,7 +1310,7 @@ int main()
 			//Tests for primality.
 			if((five_digit_prime < 10007)
 			|| (sieve[five_digit_prime] != 0))
-			{	cout << "\n\n\nFailed! (Hypership double-checks if each event will be verifiable by others. (4)\n";
+			{	cout << "\n\n\nFailed! (4)\n";
 				return 0;
 			}
 			
@@ -1321,7 +1321,7 @@ int main()
 		
 		
 		
-		//Updates file Number_backup.
+		//Updates file Hypership.number.
 		//Attempts to create 7-bit character based on ending 6 MMMMMM + end-message-bit of Publishing_line[].
 		if(M_counter < 6) //Actually: if not full of message data. Appends bit to MMMMMM slot.
 		{	number[144 + M_counter] = char(Publishing_line[1172] + 32);

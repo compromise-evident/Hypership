@@ -26,6 +26,6 @@ However, modifying parties can provide Authorship or AuthorshipFemto numbes in c
 </p>
 
 For further clarity, think of Hypership as Authorship with the following 3 major changes:
-* The function list (ordered list of multiple individual ciphertext items) has been reduced from 1,008 down to only 2 functions per list--enough for a 1-bit message per event (rather than an 80-character message per event as seen in Authorship--having 126 possibilities per character and 95 by default.) ...And with single bits over time, Hypership represents a new number, while already providing a new number per event--extracted from the finite nest.
+* The function list (ordered list of multiple individual ciphertext items) has been reduced from 1,008 down to only 2 functions per list--enough for a 1-bit message per event (rather than an 80-character message per event as seen in Authorship--having 126 possibilities per character and 95 by default.) ...And with single bits over time, Hypership represents a new number, while already providing a new one per event--extracted from the finite nest.
 * stuff & things
 * what not

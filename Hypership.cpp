@@ -92,7 +92,7 @@ using namespace std;
 
 int main()
 {	//                                                                                                                                                            |
-	bool testing_mode = false; //DEFAULT = FALSE ELSE WEAKENS & SKIPS MANUAL ENTRY OF RANDOM SEEDS.                                      fata if broken    >      |
+	bool testing_mode = false; //DEFAULT = FALSE ELSE WEAKENS & SKIPS MANUAL ENTRY OF RANDOM SEEDS.                                      fatal if broken   >      |
 	//                                                                                                                                                            |
 	
 	if(testing_mode == true) {cout << "\n(Hypership)  testing_mode is on,  DON'T ACTUALLY USE NUMBERS MADE THIS WAY!\n\n";}

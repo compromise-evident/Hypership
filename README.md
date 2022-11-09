@@ -1,11 +1,10 @@
 <!---
-Hyperspeed Authorship variant using 1.2kB
-disposable public files for user authentication.
+Hyperspeed Authorship variant using 1.2kB disposable public files.
 -->
 
 
 
-### Lightweight authentication for gargantuan user base (6,570-bit encryption)
+### (6,570-bit encryption, no data authentication, no contracts & group authorization)
 
 <p align="center">
   <img src="https://github.com/compromise-evident/Hypership/blob/main/Other/Terminal.png">

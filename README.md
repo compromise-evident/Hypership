@@ -10,7 +10,7 @@ Hyperspeed Authorship variant using 1.2kB disposable public files.
   <img src="https://github.com/compromise-evident/Hypership/blob/main/Other/Terminal.png">
 </p>
 
-[No reversal shortcuts means no inherent solutions.](https://github.com/compromise-evident/Hypership/blob/main/Other/Perfect%20secrecy%20and%20P!%3DNP%20proof.pdf) | [Auditing in the browser?](https://coliru.stacked-crooked.com/a/2acdb286657e1dda)
+[Auditing in the browser?](https://coliru.stacked-crooked.com/a/2acdb286657e1dda) | [No reversal shortcuts means no inherent solutions.](https://github.com/compromise-evident/Hypership/blob/main/Other/Perfect%20secrecy%20and%20P!%3DNP%20proof.pdf)
 
 
 
@@ -40,6 +40,8 @@ For further clarity, think of Hypership as Authorship with the following 3 major
 ```text
 wL'9ykP<}&V;/A@b-C_%k^,w/~t.X^F`J&\["_M?|+q*h(;N,j=vVw:-kq(L#lz!^S!e\a$0:RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRMMMMMM
 ```
+
+
 
 ## Published per event. Once verified, this needs not exist anywhere ------>
 

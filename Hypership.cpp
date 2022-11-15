@@ -87,7 +87,6 @@ is the user directory on your machine, for example:  /home/nikolay    Enjoy. */
 
 #include <fstream>
 #include <iostream>
-#include <sys/stat.h> //For mkdir() (creating folders.)
 using namespace std;
 
 int main()
@@ -388,7 +387,7 @@ int main()
 		
 		
 		//Writes numbers, functions, and keys to file "Representing" in folder "Hypership.private".
-		mkdir("Hypership.private", 0777);
+		system("mkdir Hypership.private");
 		out_stream.open("./Hypership.private/Representing");
 		out_stream << "DO NOT PUBLISH! Hypership.private v1.0.0=\r\n\r\n"; //45-byte header must be. Use "\r\n" for all returns (for max compatibility.)
 		for(int a = 72; a <   36360; a++) {out_stream.put(numbers  [a] + 32);} out_stream << "\r\n";
@@ -805,7 +804,6 @@ int main()
 				out_stream.close();
 				
 				//Overwrites EXISTING file Representing with numbers, functions, and keys.
-				mkdir("Hypership.private", 0777);
 				out_stream.open("./Hypership.private/Representing");
 				out_stream << "DO NOT PUBLISH! Hypership.private v1.0.0=\r\n\r\n"; //45-byte header must be. Use "\r\n" for all returns (for max compatibility.)
 				for(int a = 72; a <   36360; a++) {out_stream.put(numbers  [a] + 32);} out_stream << "\r\n";

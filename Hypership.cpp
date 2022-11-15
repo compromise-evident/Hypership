@@ -1090,7 +1090,7 @@ int main()
 		cout << "Publish Hypership.public, it modifies your number on their end.\n"
 		     << "(Once they verify this 1.2kB file, it needs not exist anywhere.\n"
 		     << "The Number_backup file contains your updated number; you may if\n"
-		     << "requested share it with those only now beginning verification.)";
+		     << "requested share it with those only now beginning verification.)\n";
 	}
 	
 	

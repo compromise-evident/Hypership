@@ -847,7 +847,7 @@ int main()
 			
 			//Creates file Hypership.public.
 			out_stream.open("Hypership.public");
-			out_stream << "Hypership.public v1.0.0= "; //25-Byte header, (1,198-yte file.)
+			out_stream << "Hypership.public v1.0.0= "; //25-Byte header, (1,198-Byte file.)
 			for(int a = 0; a < 1173; a++) {out_stream.put(Publishing_line[a]);}
 			out_stream.close();
 		}

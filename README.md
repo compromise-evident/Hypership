@@ -10,7 +10,7 @@ Hyperspeed Authorship variant using 1.2kB disposable public files.
   <img src="https://github.com/compromise-evident/Hypership/blob/main/Other/Terminal.png">
 </p>
 
-[Auditing in the browser?](https://coliru.stacked-crooked.com/a/b801ae4d4965e821) | [No reversal shortcuts means no inherent solutions.](https://github.com/compromise-evident/Hypership/blob/main/Other/Perfect%20secrecy%20and%20P!%3DNP%20proof.pdf)
+[Auditing in the browser?](https://coliru.stacked-crooked.com/a/cae46690b6554465) | [No reversal shortcuts means no inherent solutions.](https://github.com/compromise-evident/Hypership/blob/main/Other/Perfect%20secrecy%20and%20P!%3DNP%20proof.pdf)
 
 
 

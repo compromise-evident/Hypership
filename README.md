@@ -5,7 +5,7 @@ Hyperspeed Authorship variant using 1.2kB disposable public files.
 
 
 <p align="center">
-  <img src="https://github.com/compromise-evident/Hypership/blob/main/Other/Hypership_icon.png" width="200">
+  <img src="https://github.com/compromise-evident/Hypership/blob/main/Other/Hypership_icon.png" width="175">
 </p>
 
 ### (6,570-bit encryption, no user message, no contracts & group authorization)

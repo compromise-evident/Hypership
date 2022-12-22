@@ -27,7 +27,7 @@ After 504 events, 504 bits represent the full new 72-character number; 1 key per
 However, modifying parties can provide Authorship or AuthorshipFemto numbers in case verifying parties occasionally require data authentication. This way, all (16) Authorship abilities and features always apply; verifying parties retain multiple numbers of yours--each capable of different things. And as Authorship variants with user messages keep getting smaller, you can pair Hypership with any and all numbers.
 
 <p align="center">
-  <img src="https://github.com/compromise-evident/Hypership/blob/main/Other/Main%20documentation%20image.png">
+  <img src="https://github.com/compromise-evident/Hypership/blob/main/Other/Main-documentation-image.png">
 </p>
 
 For further clarity, think of Hypership as Authorship with the following 3 major changes:
